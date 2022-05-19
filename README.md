@@ -100,7 +100,7 @@ To run the artwork generator software you should follow the following steps:
      ```
 - Once you run the GAN, you will get asked for a theme input as the following: 
 
-      ```Python 
+    ```Python 
       Hello! Welcome To Your Favorite Art Generator!
       Get Ready To Build Something Amazing With RHGAN!
       Here is a list of the themes we have:
@@ -112,7 +112,7 @@ To run the artwork generator software you should follow the following steps:
        6: Depression
        7: All of these themes together
       Please make a selection!
-     ```
+    ```
 - As soon as you make a theme selection, you will get promoted to make a size selection as the following: 
 
      ```Python 
