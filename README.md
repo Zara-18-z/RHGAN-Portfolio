@@ -113,7 +113,7 @@ This repo consists of the following folders structure:
 
 ##Supplemental Documents and Resources Used:
 - https://www.kaggle.com/code/isaklarsson/gan-art-generator/notebook
-- Link 2
+- [Link 2](https://towardsdatascience.com/generating-modern-arts-using-generative-adversarial-network-gan-on-spell-39f67f83c7b4)
 - link 3
 - link 4
 - link 5
