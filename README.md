@@ -36,7 +36,7 @@ the following:
 - Dark
 - Depression
 - All of the themes together
-- 
+
 The application takes user input for the theme selection as well as for the desired output size, as our
 application supports two sizes which are:
 
