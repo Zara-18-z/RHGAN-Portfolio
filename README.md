@@ -71,12 +71,14 @@ To be able to run this project, this software relies on the user having good har
 
 Before you are able to run this project you need to first setup the proper environment on your computer. 
 
-- Installing Python: The first thing you need to do is to install python on your Machine. (If you already have python installed you can skip this step.):
+- Installing Python: The first thing you need to do is to install python on your Machine. (If you already have python installed you can skip this step):
     - Go to Python’s download page and download the appropriate installer for your machine.
     - Make sure to add python to your path when prompted.
    
 - Installing Conda: 
+    - https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 - Installing Tensorflow: 
+    - https://www.tensorflow.org/install
 
 ## Code Documentation 
 To run the artwork generator software you should follow the following steps: 
@@ -137,7 +139,26 @@ To run the artwork generator software you should follow the following steps:
  Epoch 1, gen loss = 2.1588640213012695, disc loss = 1.230824589729309
 ```
 
-- The generated artwork gets saved in the Output folder, under the corresponding theme folder. 
+- The generated artwork gets saved in the Output folder, under the corresponding theme folder. If the user generated using the one picture option, the picture might be too small however we have the Img_Resizing.py program to tackle that as the following: 
+
+```Python 
+ python Img_Resize.py 
+```
+- The user then will get the following output to select the folder of images that needs to be resized: 
+
+```Python 
+ Hello! Congrats You Got Some Nice Generated Images!!
+ Which folder you want to resize?
+ Please choose from the following:
+ 1: Demons
+ 2: Hell
+ 3: Psychedelic
+ 4: Purgatory
+ 5: Dark
+ 6: Depression
+ 7: All themes 
+```
+- Once the user makes a selection of which theme needs to be resized, the resized images gets saved under the Resized folder, under the corresponding theme. 
 
 
 ## Folder Structure 
