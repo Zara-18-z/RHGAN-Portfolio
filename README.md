@@ -84,80 +84,80 @@ Before you are able to run this project you need to first setup the proper envir
 To run the artwork generator software you should follow the following steps: 
 - You should first navigate to the RH_GAN folder where the GAN.py is located. 
 
- ```Python 
- cd RH_GAN 
- ```
+     ```Python 
+     cd RH_GAN 
+     ```
  - You should then activate the conda environement where you installed all the python packages required: 
  
-  ```Python 
- conda activate environement_name
- ```
+      ```Python 
+     conda activate environement_name
+     ```
 
 - The next step is to run the GAN as the following: 
 
- ```Python 
- python GAN.py 
- ```
+     ```Python 
+     python GAN.py 
+     ```
 - Once you run the GAN, you will get asked for a theme input as the following: 
 
-  ```Python 
-   Hello! Welcome To Your Favorite Art Generator!
-   Get Ready To Build Something Amazing With RHGAN!
-   Here is a list of the themes we have:
-    1: Demons
-    2: Hell
-    3: Psychedelic
-    4: Purgatory
-    5: Dark
-    6: Depression
-    7: All of these themes together
-   Please make a selection!
+      ```Python 
+       Hello! Welcome To Your Favorite Art Generator!
+       Get Ready To Build Something Amazing With RHGAN!
+       Here is a list of the themes we have:
+        1: Demons
+        2: Hell
+        3: Psychedelic
+        4: Purgatory
+        5: Dark
+        6: Depression
+        7: All of these themes together
+       Please make a selection!
 
 - As soon as you make a theme selection, you will get promoted to make a size selection as the following: 
 
-```Python 
- Hello! Welcome To Your Favorite Art Generator!
- Get Ready To Build Something Amazing With RHGAN!
- Here is a list of the themes we have:
-  1: Demons
-  2: Hell
-  3: Psychedelic
-  4: Purgatory
-  5: Dark
-  6: Depression
-  7: All of these themes together
- Please make a selection!
- 1
- One last question: What size do you want?
- Please choose from the following:
-  1: One picture
-  2: 7*7 collection of pictures
-```
+     ```Python 
+      Hello! Welcome To Your Favorite Art Generator!
+      Get Ready To Build Something Amazing With RHGAN!
+      Here is a list of the themes we have:
+       1: Demons
+       2: Hell
+       3: Psychedelic
+       4: Purgatory
+       5: Dark
+       6: Depression
+       7: All of these themes together
+      Please make a selection!
+      1
+      One last question: What size do you want?
+      Please choose from the following:
+       1: One picture
+       2: 7*7 collection of pictures
+     ```
 - The software then starts running making the following print for each epoch: 
 
-```Python 
- Epoch 1, gen loss = 2.1588640213012695, disc loss = 1.230824589729309
-```
+    ```Python 
+     Epoch 1, gen loss = 2.1588640213012695, disc loss = 1.230824589729309
+    ```
 
 - The generated artwork gets saved in the Output folder, under the corresponding theme folder. If the user generated using the one picture option, the picture might be too small however we have the Img_Resizing.py program to tackle that as the following: 
 
-```Python 
- python Img_Resize.py 
-```
+    ```Python 
+     python Img_Resize.py 
+    ```
 - The user then will get the following output to select the folder of images that needs to be resized: 
 
-```Python 
- Hello! Congrats You Got Some Nice Generated Images!!
- Which folder you want to resize?
- Please choose from the following:
- 1: Demons
- 2: Hell
- 3: Psychedelic
- 4: Purgatory
- 5: Dark
- 6: Depression
- 7: All themes 
-```
+    ```Python 
+     Hello! Congrats You Got Some Nice Generated Images!!
+     Which folder you want to resize?
+     Please choose from the following:
+     1: Demons
+     2: Hell
+     3: Psychedelic
+     4: Purgatory
+     5: Dark
+     6: Depression
+     7: All themes 
+    ```
 - Once the user makes a selection of which theme needs to be resized, the resized images gets saved under the Resized folder, under the corresponding theme. 
 
 
@@ -194,7 +194,7 @@ This repo consists of the following folders structure:
     - Scraping.py: The scrapping program that scrapes images from Google Images. 
     - Rotate.py: The Rotating program that rotates the scrapped images to have a larger dataset. 
 
-##Supplemental Documents and Resources Used:
+## Supplemental Documents and Resources Used:
 - https://www.kaggle.com/code/isaklarsson/gan-art-generator/notebook
 - https://towardsdatascience.com/generating-modern-arts-using-generative-adversarial-network-gan-on-spell-39f67f83c7b4
 - https://ladvien.com/scraping-internet-for-magic-symbols/
