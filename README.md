@@ -96,22 +96,48 @@ To run the artwork generator software you should follow the following steps:
  ```Python 
  python GAN.py 
  ```
-- Once you run the GAN, you will get asked for a them input as the following: 
+- Once you run the GAN, you will get asked for a theme input as the following: 
 
   ```Python 
-  Hello! Welcome To Your Favorite Art Generator!
-  Get Ready To Build Something Amazing With RHGAN!
-  Here is a list of the themes we have:
-   1: Demons
-   2: Hell
-   3: Psychedelic
-   4: Purgatory
-   5: Dark
-   6: Depression
-   7: All of these themes together
-  Please make a selection
+   Hello! Welcome To Your Favorite Art Generator!
+   Get Ready To Build Something Amazing With RHGAN!
+   Here is a list of the themes we have:
+    1: Demons
+    2: Hell
+    3: Psychedelic
+    4: Purgatory
+    5: Dark
+    6: Depression
+    7: All of these themes together
+   Please make a selection!
 
+- As soon as you make a theme selection, you will get promoted to make a size selection as the following: 
 
+```Python 
+ Hello! Welcome To Your Favorite Art Generator!
+ Get Ready To Build Something Amazing With RHGAN!
+ Here is a list of the themes we have:
+  1: Demons
+  2: Hell
+  3: Psychedelic
+  4: Purgatory
+  5: Dark
+  6: Depression
+  7: All of these themes together
+ Please make a selection!
+ 1
+ One last question: What size do you want?
+ Please choose from the following:
+  1: One picture
+  2: 7*7 collection of pictures
+```
+- The software then starts running making the following print for each epoch: 
+
+```Python 
+ Epoch 1, gen loss = 2.1588640213012695, disc loss = 1.230824589729309
+```
+
+- The generated artwork gets saved in the Output folder, under the corresponding theme folder. 
 
 
 ## Folder Structure 
