@@ -58,6 +58,7 @@ artwork as an output.
 
 - Conda: We used conda to set up our environement. Conda is an open source package management system and environement management system. 
 
+
 ## Links 
 - Project Portfolio Website: https://zara-18-z.github.io/RHGAN-PortfolioWebsite/
 - Presentation Slides: https://liveumb-my.sharepoint.com/:p:/g/personal/f_elalaoui001_umb_edu/EQzkWwT5KdNAjkHEPUSSQ-oBWR9fQmBLNwr5wz0wqMgN9Q?e=VSzy1X
@@ -73,11 +74,17 @@ Before you are able to run this project you need to first setup the proper envir
 - Installing Python: The first thing you need to do is to install python on your Machine. (If you already have python installed you can skip this step.):
     - Go to Python’s download page and download the appropriate installer for your machine.
     - Make sure to add python to your path when prompted.
+   
 - Installing Conda: 
 - Installing Tensorflow: 
 
-
 ## Code Documentation 
+To run the artwork generator software you should follow the following steps: 
+```Python 
+cd RH_GAN 
+python GAN.py 
+```
+
 ## Folder Structure 
 
 This repo consists of the following folders structure: 
@@ -113,7 +120,6 @@ This repo consists of the following folders structure:
 
 ##Supplemental Documents and Resources Used:
 - https://www.kaggle.com/code/isaklarsson/gan-art-generator/notebook
-- [Link 2](https://towardsdatascience.com/generating-modern-arts-using-generative-adversarial-network-gan-on-spell-39f67f83c7b4)
-- link 3
-- link 4
-- link 5
+- https://towardsdatascience.com/generating-modern-arts-using-generative-adversarial-network-gan-on-spell-39f67f83c7b4
+- https://ladvien.com/scraping-internet-for-magic-symbols/
+- https://stackoverflow.com/questions/56368107/rotation-of-images
