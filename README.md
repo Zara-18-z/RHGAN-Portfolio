@@ -6,7 +6,7 @@ Generative Adversarial Networks are one of the most recent powerful machine lear
 
 GANs provide the possibility of developing and generating richer data sets with training on very small labeled data sets.  GANs achieve a high level of realism in generating realistic data sets by combining two neural network models. A generative model that attempts to create realistic data sets by being trained on given labeled data sets, and a discriminator model that determines if the output data is synthetic or belongs to the given training data.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## About
  
 - Project Type: Capstone Project 
@@ -49,7 +49,14 @@ artwork as an output.
 
 ## Technologies
 
-The GAN neural network was built using Python and utilized the Tensorflow library for constructing and building the discriminator and generator neural networks. 
+The GAN neural network was built using Python which is a high-level, interpreted, general-purpose programing language. \
+For installing most of the python libraries needed, we used PyPI which is a package manager for python packages and modules. \ 
+We utilized the Tensorflow library which is an open-source framework machine learning and artificial intelligence. Tensorflow is the main library that we used to construct and build both of the neural networks that construct our GAN: the generator and the discriminator. \
+Since we also developed a project portfolio website, we used React and Javascript for a modern user interface. Our project portfolio website is hosted on Github Pages which is a free web hosting service provided by GitHub. We used gh-pages which is an NPM package that allowed us to do the process. Our website provides information about our project, and links for the documentation, presentation slides, and the Github repository for the codebase, as well as links to LinkedIn profiles for all team members.
+
+## Links 
+- Project Portfolio Website: [https://zara-18-z.github.io/RHGAN-PortfolioWebsite/]
+- Presentation Slides: [https://liveumb-my.sharepoint.com/:p:/g/personal/f_elalaoui001_umb_edu/EQzkWwT5KdNAjkHEPUSSQ-oBWR9fQmBLNwr5wz0wqMgN9Q?e=VSzy1X]
  
 ## Environment Setup 
 ## Code Documentation 
