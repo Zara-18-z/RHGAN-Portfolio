@@ -23,7 +23,6 @@ GANs provide the possibility of developing and generating richer data sets with 
     - Zhuoping Chen
     - Jessica Carvalho
 
-
 ## Purpose
 
 Our final project is a fully back-end based application that takes in a dataset as an input and returns
