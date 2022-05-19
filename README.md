@@ -49,18 +49,65 @@ artwork as an output.
 
 ## Technologies
 
-The GAN neural network was built using Python which is a high-level, interpreted, general-purpose programing language. 
+- Python: The GAN neural network was built using Python which is a high-level, interpreted, general-purpose programing language. 
 
-For installing most of the python libraries needed, we used PyPI which is a package manager for python packages and modules. 
+- PyPI: For installing most of the python libraries needed, we used PyPI which is a package manager for python packages and modules. 
 
-We utilized the Tensorflow library which is an open-source framework machine learning and artificial intelligence. Tensorflow is the main library that we used to construct and build both of the neural networks that construct our GAN: the generator and the discriminator. 
+- Tensorflow: We utilized the Tensorflow library which is an open-source framework machine learning and artificial intelligence. Tensorflow is the main library that we used to construct and build both of the neural networks that construct our GAN: the generator and the discriminator. 
 
-Since we also developed a project portfolio website, we used React and Javascript for a modern user interface. Our project portfolio website is hosted on Github Pages which is a free web hosting service provided by GitHub. We used gh-pages which is an NPM package that allowed us to do the process. Our website provides information about our project, and links for the documentation, presentation slides, and the Github repository for the codebase, as well as links to LinkedIn profiles for all team members.
+- React & JavaScript: Since we also developed a project portfolio website, we used React and Javascript for a modern user interface. Our project portfolio website is hosted on Github Pages which is a free web hosting service provided by GitHub. We used gh-pages which is an NPM package that allowed us to do the process. Our website provides information about our project, and links for the documentation, presentation slides, and the Github repository for the codebase, as well as links to LinkedIn profiles for all team members.
+
+- Conda: We used conda to set up our environement. Conda is an open source package management system and environement management system. 
 
 ## Links 
 - Project Portfolio Website: https://zara-18-z.github.io/RHGAN-PortfolioWebsite/
 - Presentation Slides: https://liveumb-my.sharepoint.com/:p:/g/personal/f_elalaoui001_umb_edu/EQzkWwT5KdNAjkHEPUSSQ-oBWR9fQmBLNwr5wz0wqMgN9Q?e=VSzy1X
  
+## Hardware 
+
+To be able to run this project, this software relies on the user having good hardware (both GPU and CPU) to perform the training and generate the images. We were given access through our university to use Chimera which is a heterogeneous distributed memory high performance compute cluster, comprised of a head node and 12 compute nodes. 
+
 ## Environment Setup 
+
+Before you are able to run this project you need to first setup the proper environment on your computer. 
+
+- Installing Python: The first thing you need to do is to install python on your Machine. (If you already have python installed you can skip this step.):
+    - Go to Python’s download page and download the appropriate installer for your machine.
+    - Make sure to add python to your path when prompted.
+- Installing Conda: 
+- Installing Tensorflow: 
+
+
 ## Code Documentation 
 ## Folder Structure 
+
+This repo consists of the following folders structure: 
+- RH GAN: Main GAN software folder 
+    - Data_NPY_Files: Input Datasets as NPY files for all themes supported by the software 
+        - dark.npy
+        - demons.npy 
+        - hell.npy
+        - purgatory.npy
+        - psychedelic.npy
+        - allThemes.npy
+    - Output: The output folders where the outputs are saved for each theme 
+        - dark_output 
+        - demons_output 
+        - hell_output 
+        - purgatory_output 
+        - psychedelic_output 
+        - allThemes_output 
+    - Resized: The resized output where the resized outputs are saved after running the Img_Resize.npy on an Output folder. 
+        - dark_resized
+        - demons_resized 
+        - hell_resized 
+        - purgatory_resized
+        - psychedelic_resized 
+        - allThemes_resized 
+    - GAN.py: The main software that generates artwork after collecting user input for the theme and size selection.  
+    - Img_Resize.py: The resizing program that resizes output images. 
+- Supplemental Code: Supplemental programs that were used to scrape, pre-process, pre-load and save images as NPY files. 
+    - Scraped_Images: The folder that contains the file that resize all scraped images and save them to an NPY file. 
+        - NPY_resize.py 
+    - Scraping.py: The scrapping program that scrapes images from Google Images. 
+    - Rotate.py: The Rotating program that rotates the scrapped images to have a larger dataset. 
