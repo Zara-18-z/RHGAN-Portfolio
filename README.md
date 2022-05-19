@@ -80,10 +80,39 @@ Before you are able to run this project you need to first setup the proper envir
 
 ## Code Documentation 
 To run the artwork generator software you should follow the following steps: 
-```Python 
-cd RH_GAN 
-python GAN.py 
-```
+- You should first navigate to the RH_GAN folder where the GAN.py is located. 
+
+ ```Python 
+ cd RH_GAN 
+ ```
+ - You should then activate the conda environement where you installed all the python packages required: 
+ 
+  ```Python 
+ conda activate environement_name
+ ```
+
+- The next step is to run the GAN as the following: 
+
+ ```Python 
+ python GAN.py 
+ ```
+- Once you run the GAN, you will get asked for a them input as the following: 
+
+  ```Python 
+  Hello! Welcome To Your Favorite Art Generator!
+  Get Ready To Build Something Amazing With RHGAN!
+  Here is a list of the themes we have:
+   1: Demons
+   2: Hell
+   3: Psychedelic
+   4: Purgatory
+   5: Dark
+   6: Depression
+   7: All of these themes together
+  Please make a selection
+
+
+
 
 ## Folder Structure 
 
