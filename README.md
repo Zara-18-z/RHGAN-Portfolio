@@ -2,15 +2,19 @@
 
 ### About
  
-This project is a capstone project for Umass Boston CS410 course Spring 2022. 
-Supervised by professor: Daniel Haehn. 
-Developed for client:  Ricarda Haehn. 
-Developed by: 
-Zara El Alaoui 
-Vladimir Pierre Louis 
-Sara Saddighi 
-Zhuoping Chen
-Jessica Carvalho
+- Project Type: Capstone Project 
+- University: UMass Boston
+- Department: College of Math and Science 
+- Course: CS410 Introduction to Software Engineering 
+- Term: Spring 2022 
+- Supervised by: Professor Daniel Haehn. 
+- Developed for: Client Ricarda Haehn. 
+- Developed by: 
+ -- Zara El Alaoui 
+ -- Vladimir Pierre Louis 
+ -- Sara Saddighi 
+ -- Zhuoping Chen
+ -- Jessica Carvalho
 
 ### Abstract 
 
