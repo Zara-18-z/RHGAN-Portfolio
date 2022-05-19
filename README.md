@@ -1,4 +1,4 @@
-# RHGAN-Portfolio
+# RHGAN
 
 ## Abstract 
 
