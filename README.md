@@ -110,3 +110,10 @@ This repo consists of the following folders structure:
         - NPY_resize.py 
     - Scraping.py: The scrapping program that scrapes images from Google Images. 
     - Rotate.py: The Rotating program that rotates the scrapped images to have a larger dataset. 
+
+##Supplemental Documents and Resources Used:
+- https://www.kaggle.com/code/isaklarsson/gan-art-generator/notebook
+- Link 2
+- link 3
+- link 4
+- link 5
