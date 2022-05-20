@@ -170,7 +170,7 @@ To run the artwork generator software you should follow the following steps:
 
 This repo consists of the following folders structure: 
 - RH GAN: Main GAN software folder 
-    - Data_NPY_Files: Input Datasets as NPY files for all themes supported by the software 
+    - Data_NPY_Files: Input Datasets as NPY files for all themes supported by the software. This folder should be downloaded from the DropBox or the Mega link. 
         - dark.npy
         - demons.npy 
         - hell.npy
