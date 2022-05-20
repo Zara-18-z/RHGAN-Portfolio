@@ -82,7 +82,12 @@ Before you are able to run this project you need to first setup the proper envir
 
 ## Code Documentation 
 To run the artwork generator software you should follow the following steps: 
-- You should first navigate to the RH_GAN folder where the GAN.py is located. 
+- First thing you should do is donwload one of the following datasets from this DropBox link or the Mega link and put the folder titeled [Data_NPY_Files] in the same directory as the GAN.py file: 
+
+    - [DropBox](https://www.dropbox.com/s/j136jhc8121xl97/Data_NPY_Files.zip?dl=0)
+    - [Mega](https://mega.nz/folder/QD8gWAQD#lIsT2P6f7mmEKnthlkGDxg)
+   
+- You should then navigate to the RH_GAN folder where the GAN.py is located. 
 
      ```Python 
      cd RH_GAN 
