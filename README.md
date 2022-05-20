@@ -80,6 +80,11 @@ Before you are able to run this project you need to first setup the proper envir
 - Installing Tensorflow: 
     - https://www.tensorflow.org/install
 
+Once you have conda, you can easily set up the required environement to run this project by using our [Environement.yaml] file which can be used to create the same environement as the one we used to run develop and run this project. You can run the following command to use the environement:
+
+    ```Python 
+     Conda env create -f environement.yaml 
+    ```
 ## Code Documentation 
 To run the artwork generator software you should follow the following steps: 
 - First thing you should do is donwload one of the following datasets from this DropBox link or the Mega link and put the folder titeled [Data_NPY_Files] in the same directory as the GAN.py file: 
@@ -198,6 +203,7 @@ This repo consists of the following folders structure:
         - NPY_resize.py 
     - Scraping.py: The scrapping program that scrapes images from Google Images. 
     - Rotate.py: The Rotating program that rotates the scrapped images to have a larger dataset. 
+- Environement.yaml: This file will allow you to load the same conda environement with the required packages that we used to develop and run this project. 
 
 ## Supplemental Documents and Resources Used:
 - https://www.kaggle.com/code/isaklarsson/gan-art-generator/notebook
